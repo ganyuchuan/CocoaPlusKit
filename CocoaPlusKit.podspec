@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CocoaPlusKit"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A collection of CocoaTouch framework categories"
   s.homepage     = "https://github.com/ganyuchuan/CocoaPlusKit"
   s.license      = { :type => "MIT", :file => "LICENSE" }
