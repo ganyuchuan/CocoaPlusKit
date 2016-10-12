@@ -16,12 +16,12 @@ FOUNDATION_EXPORT const unsigned char CocoaPlusKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CocoaPlusKit/PublicHeader.h>
 
-#import "NSString+.h"
-#import "NSDate+.h"
-#import "UIColor+.h"
-#import "UIImage+.h"
-#import "UIView+.h"
-#import "UIScrollView+.h"
-#import "UITableViewCell+.h"
+#import <CocoaPlusKit/NSString+.h>
+#import <CocoaPlusKit/NSDate+.h>
+#import <CocoaPlusKit/UIColor+.h>
+#import <CocoaPlusKit/UIImage+.h>
+#import <CocoaPlusKit/UIView+.h>
+#import <CocoaPlusKit/UIScrollView+.h>
+#import <CocoaPlusKit/UITableViewCell+.h>
 
-#import "CocoaPlusMacro.h"
+#import <CocoaPlusKit/CocoaPlusMacro.h>

@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		9CA589201DA9DBCF0025455C /* CocoaPlusKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5891F1DA9DBCF0025455C /* CocoaPlusKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CA589311DA9E2970025455C /* UIView+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5892F1DA9E2970025455C /* UIView+.h */; };
-		9CA589351DA9E3270025455C /* UIColor+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA589331DA9E3270025455C /* UIColor+.h */; };
+		9CA589311DA9E2970025455C /* UIView+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5892F1DA9E2970025455C /* UIView+.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CA589351DA9E3270025455C /* UIColor+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA589331DA9E3270025455C /* UIColor+.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CA589361DA9E3270025455C /* UIColor+.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA589341DA9E3270025455C /* UIColor+.m */; };
-		9CA589391DA9E3560025455C /* UIImage+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA589371DA9E3560025455C /* UIImage+.h */; };
+		9CA589391DA9E3560025455C /* UIImage+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA589371DA9E3560025455C /* UIImage+.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CA5893A1DA9E3560025455C /* UIImage+.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA589381DA9E3560025455C /* UIImage+.m */; };
-		9CA5893D1DA9E3D70025455C /* UIScrollView+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5893B1DA9E3D70025455C /* UIScrollView+.h */; };
+		9CA5893D1DA9E3D70025455C /* UIScrollView+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5893B1DA9E3D70025455C /* UIScrollView+.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CA5893E1DA9E3D70025455C /* UIScrollView+.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA5893C1DA9E3D70025455C /* UIScrollView+.m */; };
-		9CA589411DA9E42E0025455C /* NSString+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5893F1DA9E42E0025455C /* NSString+.h */; };
+		9CA589411DA9E42E0025455C /* NSString+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5893F1DA9E42E0025455C /* NSString+.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CA589421DA9E42E0025455C /* NSString+.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA589401DA9E42E0025455C /* NSString+.m */; };
 		9CA589471DA9E8F00025455C /* UIView+.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA589301DA9E2970025455C /* UIView+.m */; };
-		9CA5894A1DA9F6A40025455C /* NSDate+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA589481DA9F6A40025455C /* NSDate+.h */; };
+		9CA5894A1DA9F6A40025455C /* NSDate+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA589481DA9F6A40025455C /* NSDate+.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CA5894B1DA9F6A40025455C /* NSDate+.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA589491DA9F6A40025455C /* NSDate+.m */; };
-		9CA5894D1DA9FA9D0025455C /* CocoaPlusMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5894C1DA9FA9D0025455C /* CocoaPlusMacro.h */; };
-		9CA589501DAA1CB00025455C /* UITableViewCell+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5894E1DAA1CB00025455C /* UITableViewCell+.h */; };
+		9CA5894D1DA9FA9D0025455C /* CocoaPlusMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5894C1DA9FA9D0025455C /* CocoaPlusMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CA589501DAA1CB00025455C /* UITableViewCell+.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA5894E1DAA1CB00025455C /* UITableViewCell+.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CA589511DAA1CB00025455C /* UITableViewCell+.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA5894F1DAA1CB00025455C /* UITableViewCell+.m */; };
 /* End PBXBuildFile section */
 
@@ -143,7 +143,7 @@
 		9CA589131DA9DBCF0025455C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = ganyuchuan;
 				TargetAttributes = {
 					9CA5891B1DA9DBCF0025455C = {
@@ -209,8 +209,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -233,7 +235,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -256,8 +258,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -274,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,6 +291,7 @@
 		9CA589251DA9DBCF0025455C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -294,6 +299,12 @@
 				INFOPLIST_FILE = CocoaPlusKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ganyuchuan.CocoaPlusKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -303,6 +314,7 @@
 		9CA589261DA9DBCF0025455C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -310,6 +322,12 @@
 				INFOPLIST_FILE = CocoaPlusKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ganyuchuan.CocoaPlusKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
