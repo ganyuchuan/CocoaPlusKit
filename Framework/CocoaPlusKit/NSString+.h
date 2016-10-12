@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <UIKit/UIKit.h>
-#import <CommonCrypto/CommonDigest.h>
 
 @interface NSString (CocoaPlus)
 
